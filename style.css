@@ -36,6 +36,16 @@ input[type=submit]:hover {
 	color: #404040;
 }
 
+.header {
+	position: absolute;
+	margin-right:20px;
+	right: 0;
+	left: 0;
+	top: 10px;
+	line-height: 30px;
+	font-family: Arial, Helvetica;
+}
+
 .footer {
 	position: absolute;
 	right: 0;
@@ -54,6 +64,17 @@ input[type=submit]:hover {
 	text-decoration: none;
 }
 
+.header a{
+	font-family: Arial, Helvetica;
+	font-size: 10pt;
+	color: #A8A8A8;
+	text-decoration: none;
+}
+
+.middle {
+	margin-top: 200px;
+}
+
 #fleft {
 	float: left;
 }
@@ -66,13 +87,6 @@ input[type=submit]:hover {
 .flink {
 	padding-left: 28px;
 	margin: 0;
-}
-
-.header a{
-	font-family: Arial, Helvetica;
-	font-size: 10pt;
-	color: #A8A8A8;
-	text-decoration: none;
 }
 
 .hlink {
