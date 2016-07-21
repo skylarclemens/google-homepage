@@ -1,0 +1,86 @@
+input[type=text] {
+	width: 40%;
+	padding: 12px 20px;
+	margin: 20px auto;
+	border: .5px solid #E1E1E1;
+	outline: none;
+}
+
+input[type=text]:focus {
+	border-color: #0080FF;
+}
+
+input[type=text]:hover {
+	border-color: #C0C0C0;
+}
+
+input[type=submit] {
+	border: .5px solid #F9F9F9;
+	margin: 5px 2px;
+	font-family: Arial, Helvetica;
+	font-weight: bold;
+	font-size: 9.5pt;
+	color: #757575;
+	background: #F5F5F5;
+	border-radius: 3px;
+	padding: 10px 12px;
+
+}
+
+input[type=submit]:hover {
+	border: .5px solid #C0C0C0;
+	background: #FAFAFA;
+	background: linear-gradient(to top right, #F2F2F2, #FAFAFA);
+	box-shadow: 0px .5px .5px #C0C0C0;
+	font-family: Arial, Helvetica;
+	color: #404040;
+}
+
+.footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	line-height:40px;
+	background-color: #F5F5F5;
+	font-family: Arial, Helvetica;
+	border-top: .5px solid #C0C0C0;
+}
+
+.footer a {
+	font-family: Arial, Helvetica;
+	font-size: 10pt;
+	color: #A8A8A8;
+	text-decoration: none;
+}
+
+#fleft {
+	float: left;
+}
+
+#fright {
+	float: right;
+	margin-right: 28px;
+}
+
+.flink {
+	padding-left: 28px;
+	margin: 0;
+}
+
+.header a{
+	font-family: Arial, Helvetica;
+	font-size: 10pt;
+	color: #A8A8A8;
+	text-decoration: none;
+}
+
+.hlink {
+	float: right;
+	padding-left: 18px;
+	margin: 0;
+}
+
+.name-circle {
+	border-radius: 50%;
+}
